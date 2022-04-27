@@ -1,0 +1,36 @@
+body {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap:32px;
+}
+
+
+.grid {
+    border:1px solid black;
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    justify-content:space-around;
+    
+    
+    
+    
+}
+
+.row {
+    display:flex;
+    justify-content: space-around;
+    align-items: stretch;
+    height:100%;
+}
+
+
+.element {
+  
+  flex:1 1 0;
+}
+
+
